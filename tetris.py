@@ -53,7 +53,7 @@ def isvalid(N,configuration,pieces):
 @jit
 def solve(N,pieces):
     """
-    Attempts to solve the tetris puzzle for specified pieces on an NxN grid with a discrete Pi/4 rotation DOF.
+    Attempts to solve the tetris puzzle for specified pieces on an NxN grid with a discrete Pi/2 rotation DOF.
     If the puzzle is solvable, returns a solution. If it is unsolvable, returns None.
     A configuration is specified by the (x,y) coordinates of each centerpiece and a corresponding list of rotation values.
     """
